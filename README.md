@@ -5,14 +5,19 @@ Assembly of harmonic equipment
 
 System Requirements:
 
-1. [Node.js 20](https://nodejs.org/en) or later.
-2. [pnpm - package manager](https://pnpm.io/installation#using-npm) (recommended)
+1. [Node.js 18](https://nodejs.org/en) or later.
 
 First, install dependencies:
 
 ```bash
 cd app
 npm install
+```
+
+Then create .env.local file:
+
+```bash
+cp .env.local.example .env.local
 ```
 
 Now, run the development server:
